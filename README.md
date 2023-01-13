@@ -5,4 +5,4 @@ Iconland is the ground to do the operations related to grauity-icons. Majorly it
 
 ## Changing the icons
 
-Please visit (grauity)[https://github.com/Newton-School/grauity] for a full context on how to modify icons in the library using the iconland.
+Please visit [grauity](https://github.com/Newton-School/grauity) for a full context on how to modify icons in the library using the iconland.
