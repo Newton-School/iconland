@@ -11,7 +11,7 @@ Iconland is the ground to do the operations related to grauity-icons. Majorly it
     - There can be two variants of each icon: `default` or `filled`.
     - The `filled` variant SVG file should be suffixed by `-filled`.
     - The `default` variant SVG file <strong>SHOULD NOT</strong> be suffixed by `-default`. Checkout `scripts/remove-default-suffix.sh` to remove this unnecessary suffix which is added to file names when exporting from Figma currently.
-3. Add all icon SVG files (NOTE: only .svg files, no folders or other file extension) in the `/optimized` folder.
+3. Add all icon SVG files (NOTE: only .svg files, no folders or other file extension) in the `/seeds` folder.
 4. `git add` and `git commit` to `master` branch of the GitHub `iconland` repository.
 5. In `grauity`, Run the command `git submodule update --remote --merge` to update the `iconland` submodule to the latest GitHub version.
 6. In `grauity`, Run the command `npm run build:icons` to generate the file `grauity-icons.scss`.
