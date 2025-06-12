@@ -14,6 +14,6 @@ Iconland is the ground to do the operations related to grauity-icons. Majorly it
 3. Add all icon SVG files (NOTE: only .svg files, no folders or other file extension) in the `/seeds` folder.
 4. `git add` and `git commit` to `master` branch of the GitHub `iconland` repository.
 5. In `grauity`, Run the command `git submodule update --remote --merge` to update the `iconland` submodule to the latest GitHub version.
-6. In `grauity`, Run the command `npm run build:icons` to generate the file `grauity-icons.scss`.
+6. In `grauity`, Run the command `npm run build-icons` to generate the file `grauity-icons.scss`.
 
 Please visit [grauity](https://github.com/Newton-School/grauity) for the full context of icon-related workflows.
